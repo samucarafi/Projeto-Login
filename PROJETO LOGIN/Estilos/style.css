@@ -1,0 +1,98 @@
+@charset 'UTF-8';
+/*Paleta de Cores*/
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body, html{
+    background-color: orange;
+    height: 100vh;
+    width: 100vw;
+}
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    overflow: hidden;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+}
+section#login>div#imagem{
+    display: block;
+    background: lightgoldenrodyellow url(../imagens/pexels-photo-2882566\ \(1\).jpeg) no-repeat;
+    height: 200px;
+    background-position: center center;
+    background-size: cover;
+
+
+}
+section#login> div#formulario{
+    padding: 10px;
+    display: block;
+
+}
+div#formulario>h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+div#formulario>p{
+    font-size: 0.8em;
+}
+
+form>div.campo{
+    background-color: orange;
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+form>input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+form > input[type=submit]:hover{
+    background-color:gold;
+}
+form > a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    margin-top: 5px;
+    background-color: white;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    text-decoration: none;
+    color: goldenrod;
+}
+form > a.botao:hover{
+    background-color: antiquewhite ;
+}
+form > a.botao>i{
+    font-size: 0.8em;
+}
