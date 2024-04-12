@@ -37,13 +37,10 @@ section#login>div#imagem{
     height: 200px;
     background-position: center center;
     background-size: cover;
-
-
 }
 section#login> div#formulario{
     padding: 10px;
     display: block;
-
 }
 div#formulario>h1{
     text-align: center;
@@ -54,19 +51,22 @@ div#formulario>p{
 }
 
 form>div.campo{
-    background-color: orange;
+    background-color: rgb(243, 130, 130);
     width: 100%;
     display: block;
     height: 40px;
     border-radius: 5px;
     margin: 5px 0px;
 }
+form label {
+    display:none
+}
 form>input[type=submit]{
     display: block;
     font-size: 1em;
     width: 100%;
     height: 40px;
-    background-color: goldenrod;
+    background-color: rgb(243, 130, 130);
     color: white;
     border: none;
     border-radius: 5px;
@@ -74,7 +74,7 @@ form>input[type=submit]{
     cursor: pointer;
 }
 form > input[type=submit]:hover{
-    background-color:gold;
+    background-color:rgb(245, 155, 155);
 }
 form > a.botao{
     display: block;
@@ -82,16 +82,16 @@ form > a.botao{
     font-size: 1em;
     width: 100%;
     height: 40px;
-    padding-top: 10px;
+    padding-top: 8px;
     margin-top: 5px;
     background-color: white;
-    border: 1px solid goldenrod;
+    border: 1px solid rgb(241, 49, 49);
     border-radius: 5px;
     text-decoration: none;
-    color: goldenrod;
+    color: black;
 }
 form > a.botao:hover{
-    background-color: antiquewhite ;
+    background-color: rgb(245, 155, 155) ;
 }
 form > a.botao>i{
     font-size: 0.8em;
